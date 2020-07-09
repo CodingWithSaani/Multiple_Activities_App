@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SecondScreen">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/mainSATextTV"
+        android:text="@string/second_activity"
+        android:background="@color/colorGold"
+        android:gravity="center"
+        android:textSize="20sp"
+        android:padding="10dp"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/move_back"
+        android:layout_below="@id/mainSATextTV"
+        android:layout_centerInParent="true"
+        android:onClick="moveBack"
+        />
+
+</RelativeLayout>
